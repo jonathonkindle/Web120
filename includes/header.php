@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang='en'>
     <head>
-        <title>Jonathon's Web120 portal</title>
+        <title><?=$title?></title>
         <meta name="viewport" content="width=device-width" />
         <meta name="robots" content="noindex,nofollow" />
         <meta charset="utf-8">
@@ -16,20 +16,21 @@
     <!-- START WRAPPER -->
         <div class="wrapper">
             <header>
-                <h1><a href="index.php"><i class="logo fa fa-home"></i> Jonathon Kindle SCC WEB120 Portal</a></h1>
+                <h1><a href="/WEB120/index.php"><i class="logo fa <?=$logo?>"></i> Jonathon Kindle's SCC WEB120 Portal</a></h1>
                 <nav>
                     <ul class="topnav" id="myTopnav">
-                    <li><a href="/web120/index.php" class="selected">Welcome</a></li>
-                    <li><a href="/web120/big/index.php">Big</a></li>
-                    <li><a href="/web120/aia.php">AIA</a></li>
-                    <li><a href="/web120/flowchart.php">Flowchart</a></li>
-                    <li><a href="/web120/fp/index.php">Final Project</a></li>
-                    <li><a href="/web120/contactme.php">Contact Jonathon</a></li>
-                    <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
+                        <?=makeLinks($nav1)?>
+                        <!-- <li><a href="/web120/index.php" class="selected">Welcome</a></li>
+                        <li><a href="/web120/big/index.php">Big</a></li>
+                        <li><a href="/web120/aia.php">AIA</a></li>
+                        <li><a href="/web120/flowchart.php">Flowchart</a></li>
+                        <li><a href="/web120/fp/index.php">Final Project</a></li>
+                        <li><a href="/web120/contactme.php">Contact Jonathon</a></li> -->
+                        <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
                     </ul>
                 </nav>
             </header>
                 
             <!-- START LEFT COL -->
             <section>
-                <h2 class="pageID">Welcome</h2>
+                <h2 class="pageID"><?=$pageID?></h2>

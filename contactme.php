@@ -1,16 +1,23 @@
 <?php include 'includes/header.php';?>
-<!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
- <img src="images/desktop.jpg" class="desktop" alt="" />
- <img src="images/phone.jpg" class="phone" alt="" />
- <p>Coming soon!</p>
+<!-- END header.php include here! -->
+
+<!--reCAPTCHA form goes here-->
+   <h2>Contact (your name goes here)</h2>
+   <?php include "includes/simple.php";?>
+   <p class="clear-recaptcha"></p>
+
+
+   <p>I will be adding a contact form here</p>
 </section>
 <!-- END LEFT COL -->
 
 <!-- START RIGHT COL -->
 <aside>
- <h3>Right Column</h3>
- <img src="images/tablet.jpg" class="tablet" alt="" />
- <p>Lorem Ipsum place holder text goes here for now</p>
+   <h3>Contact Jonathon</h3>
+   <ul>
+      <li></li>
+      <li></li>
+   </ul>
 </aside>
 <!-- END RIGHT COL -->
 <?php include 'includes/footer.php';?>
