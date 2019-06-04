@@ -7,9 +7,9 @@
         <meta name="robots" content="noindex,nofollow" />
         <meta charset="utf-8">
         <script src="https://use.fontawesome.com/6a71565c22.js"></script>
-        <link rel="stylesheet" href="/web120/css/nav.css" />
-        <link rel="stylesheet" href="/web120/css/portal.css" />
-        <link rel="stylesheet" href="/web120/css/form.css" />
+        <link rel="stylesheet" href="/WEB120/css/nav.css" />
+        <link rel="stylesheet" href="/WEB120/css/portal.css" />
+        <link rel="stylesheet" href="/WEB120/css/form.css" />
     </head>
 
     <body>

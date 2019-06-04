@@ -79,9 +79,7 @@ if ($response != null && $response->success)
 	</div>
     </form>
 	<!-- END HTML FORM -->
-    <script type="text/javascript"
-        src="https://www.google.com/recaptcha/api.js?hl=en">
-    </script>
+    <script src="https://www.google.com/recaptcha/api.js?hl=en"></script>
 <?php
 }
 ?>
