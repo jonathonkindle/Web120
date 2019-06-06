@@ -15,6 +15,10 @@
                     x.className = "topnav";
                 }
             }
+
+            $(document).ready(function(){
+                $(".animsition").animsition();
+            });
         </script>
     </div>
     <!-- END WRAPPER -->

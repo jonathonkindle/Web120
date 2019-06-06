@@ -2,6 +2,9 @@
 <!-- END header.php include here! -->
 
 <!-- responsive tables coming soon -->
+<!-- START LEFT COL -->
+<section>
+    <h2 class="pageID"><?=$pageID?></h2>
     <p>We'll attempt iframing in a google doc that shows our final project wireframe and flowchart here</p>
 </section>
 <!-- END LEFT COL -->

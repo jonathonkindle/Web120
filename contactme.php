@@ -1,6 +1,8 @@
 <?php include 'includes/header.php';?>
 <!-- END header.php include here! -->
-
+<!-- START LEFT COL -->
+<section>
+   <h2 class="pageID"><?=$pageID?></h2>
 <!--reCAPTCHA form goes here-->
    <?php include "includes/simple.php";?>
    <p class="clear-recaptcha"></p>
