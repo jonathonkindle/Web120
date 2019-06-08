@@ -124,6 +124,9 @@ footer {
     img.desktop {
         float:left;
         width:50%;
+        margin: 10px;
+        border: 2px solid rgb(47, 49, 47);
+        border-radius: 3%;
     }
     
     img.tablet, img.phone {
@@ -152,7 +155,11 @@ footer {
 	}
 	
     img.tablet {
-        width:100%;
+        width:98%;
+        margin-left: 1%;
+        margin-right: 1%;
+        border: 2px solid rgb(47, 49, 47);
+        border-radius: 3%;
     }
     
     img.phone, img.desktop {
@@ -171,7 +178,11 @@ footer {
 @media all and (max-width:736px) {
     
     img.phone {
-        width:100%;
+        width:98%;
+        margin-left: 1%;
+        margin-right: 1%;
+        border: 2px solid rgb(47, 49, 47);
+        border-radius: 3%;
     }
     
     img.tablet, img.desktop {
