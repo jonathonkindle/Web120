@@ -7,7 +7,7 @@ define(THIS_PAGE, $_SERVER['PHP_SELF']);
 switch(THIS_PAGE){
     case '/WEB120/fp/fpindex.php':
         $title = "Second Chance Cycles";
-        $logo = 'fa-home';
+        $logo = 'fa fa-home';
         $pageID = "Welcome";
     break;
 
@@ -19,13 +19,13 @@ switch(THIS_PAGE){
 
     case '/WEB120/fp/services.php':
         $title = "Services";
-        $logo = 'fa-pen-square';
+        $logo = '';
         $pageID = "SCC Services";
     break;
 
     case '/WEB120/fp/contactme.php':
         $title = "Contact SCC";
-        $logo = 'fa-pen-square';
+        $logo = 'fa fa-pen-square';
         $pageID = "Contact SCC";
     break;
 
@@ -39,7 +39,7 @@ $nav1['/WEB120/fp/fpindex.php'] = "Welcome";
 $nav1['/WEB120/fp/products.php'] = "Products";
 $nav1['/WEB120/fp/services.php'] = "Services";
 $nav1['/WEB120/fp/contactme.php'] = "Contact SCC";
-$nav1['/WEB120/index.php'] = "Return to Jonathon's Portal Page";
+$nav1['/WEB120/index.php'] = "WEB120 Portal";
 
 
 function makeLinks($nav1){

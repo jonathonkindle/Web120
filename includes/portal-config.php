@@ -44,7 +44,7 @@ switch(THIS_PAGE){
 $nav1['/WEB120/index.php'] = "Welcome";
 $nav1['/WEB120/big/bigindex.php'] = "Big";
 $nav1['/WEB120/aia.php'] = "AIA";
-$nav1['/WEB120/flowchart.php'] = "Flowchart";
+$nav1['https://docs.google.com/document/d/1y8lBW0KEXZvhQLZV2qYWMKTBQ-Ra_9-L617kNcRPWco/edit?usp=sharing'] = "Flowchart";
 $nav1['/WEB120/fp/fpindex.php'] = "Final Project";
 $nav1['/WEB120/contactme.php'] = "Contact Jonathon";
 

@@ -1,4 +1,4 @@
-<?php include 'fp-config.php'?>
+<?php include 'big-config.php'?>
 <!DOCTYPE html>
 <html lang='en'>
     <head>
@@ -10,16 +10,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <link rel="stylesheet" href="/WEB120/animsition-master/dist/css/animsition.min.css">
         <script src="/WEB120/animsition-master/dist/js/animsition.min.js"></script>
-        <link rel="stylesheet" href="../css/fpnav.css" />
-        <link rel="stylesheet" href="../css/fp.css" />
-        <link rel="stylesheet" href="../css/fpform.css" />
+        <link rel="stylesheet" href="../css/nav.css" />
+        <link rel="stylesheet" href="../css/portal.css" />
+        <link rel="stylesheet" href="../css/form.css" />
     </head>
 
     <body>
     <!-- START WRAPPER -->
         <div class="wrapper animsition">
             <header>
-                <h1><a href="/WEB120/fp/fpindex.php"><i class="logo <?=$logo?>"></i>Second Chance Cycles</a></h1>
+                <h1><a href="/WEB120/big/bigindex.php"><i class="logo <?=$logo?>"></i>BIG</a></h1>
                 <nav>
                     <ul class="topnav" id="myTopnav">
                         <?=makeLinks($nav1)?>

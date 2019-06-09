@@ -1,0 +1,192 @@
+/* portal website */
+
+/* My WEB120 Portal Website Styles */
+
+html {
+    background-color:#ccc;
+}
+
+div.wrapper {
+    background-color:#fff;
+    overflow:auto;
+}
+
+h1>a {
+    text-decoration: none;
+    color:#000;
+}
+
+.logo {
+    color:red;
+    margin-left:1%;
+    text-shadow:1px 1px #ccc;
+    font-size:1.25em;
+}
+
+/* Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 98%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.aiah3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aiaclientinfo {
+    border: 2px solid rgb(15, 15, 15);
+    background-color: rgb(198, 216, 200);
+}
+#aiaclientinfo {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#aiaclientinfo td, #aiaclientinfo th {
+    border: 1px solid rgb(15, 15, 15);
+    padding: 8px;
+}
+
+#aiaclientinfo tr:nth-child(even){
+    background-color: rgb(228, 206, 206);
+}
+
+#aiainfo {
+    border: 2px solid rgb(15, 15, 15);
+    background-color: rgb(198, 216, 200);
+}
+#aiainfo {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#aiainfo td, #aiaclientinfo th {
+    border: 1px solid rgb(15, 15, 15);
+    padding: 8px;
+}
+
+#aiainfo tr:nth-child(even){
+    background-color: rgb(228, 206, 206);
+}
+
+/* #aiaclientinfo th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: rgb(144, 185, 48);
+} */
+
+footer {
+	clear:both;
+}
+/* START RESPONSIVE STYLES */
+
+/* DESKTOP */
+@media all and (min-width:1400px) {
+	
+   div.wrapper {
+		width:80%;
+		margin:auto;
+	}
+
+    section {
+		width:65%;
+		float:left;
+	}
+	
+    aside {	
+		width:34%;
+		float:right;
+	}
+			
+	
+    img.desktop {
+        float:left;
+        width:50%;
+        margin: 10px;
+        border: 2px solid rgb(47, 49, 47);
+        border-radius: 3%;
+    }
+    
+    img.tablet, img.phone {
+        display:none;
+    }  
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        background-color: #ccc;
+        color:#000;
+    }
+}
+
+
+/* TABLET */
+@media all and (min-width:737px) and (max-width:1399px) {
+	
+	section {
+		width:60%;
+		float:left;
+	}
+	
+	aside {	
+		width:39%;
+		float:right;
+	}
+	
+    img.tablet {
+        width:98%;
+        margin-left: 1%;
+        margin-right: 1%;
+        border: 2px solid rgb(47, 49, 47);
+        border-radius: 3%;
+    }
+    
+    img.phone, img.desktop {
+        display:none;
+    } 
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        background-color: #ccc;
+        color:#000;
+    }
+}
+
+
+/* PHONE */
+@media all and (max-width:736px) {
+    
+    img.phone {
+        width:98%;
+        margin-left: 1%;
+        margin-right: 1%;
+        border: 2px solid rgb(47, 49, 47);
+        border-radius: 3%;
+    }
+    
+    img.tablet, img.desktop {
+        display:none;
+    }  
+
+}
