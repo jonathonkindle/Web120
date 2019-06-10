@@ -6,6 +6,18 @@ html {
     background-color:#ccc;
 }
 
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 16px;
+}
+
+blockquote {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 10px;
+}
+
 div.wrapper {
     background-color:#fff;
     overflow:auto;
@@ -89,14 +101,6 @@ div.embed-container iframe {
     background-color: rgb(228, 206, 206);
 }
 
-/* #aiaclientinfo th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #4CAF50;
-    color: rgb(144, 185, 48);
-} */
-
 footer {
 	clear:both;
 }
@@ -112,7 +116,8 @@ footer {
 
     section {
 		width:65%;
-		float:left;
+        float:left;
+        margin: 10px;
 	}
 	
     aside {	
