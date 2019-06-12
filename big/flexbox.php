@@ -23,9 +23,9 @@
 <aside>
     <h3>Citations:</h3>
     <ul>
-        <li><a href="https://internetingishard.com/html-and-css/flexbox/" target="_blank">Interneting is Hard</a></li>
-        <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Tricks</a></li>
-        <li><a href="https://medium.com/@js_tut/the-complete-css-flex-box-tutorial-d17971950bdc" target="_blank">Medium</a></li>
+        <li><a class="a-citations" href="https://internetingishard.com/html-and-css/flexbox/" target="_blank">Interneting is Hard</a></li>
+        <li><a class="a-citations" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Tricks</a></li>
+        <li><a class="a-citations" href="https://medium.com/@js_tut/the-complete-css-flex-box-tutorial-d17971950bdc" target="_blank">Medium</a></li>
     </ul>
 </aside>
 <!-- END RIGHT COL -->

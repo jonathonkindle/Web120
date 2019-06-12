@@ -6,18 +6,6 @@ html {
     background-color:#ccc;
 }
 
-p {
-    text-align: justify;
-    text-justify: inter-word;
-    font-size: 16px;
-}
-
-blockquote {
-    text-align: justify;
-    text-justify: inter-word;
-    font-size: 10px;
-}
-
 div.wrapper {
     background-color:#fff;
     overflow:auto;
@@ -53,54 +41,6 @@ div.embed-container iframe {
     height: 100%;
 }
 
-.aiah3 {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#aiaclientinfo {
-    border: 2px solid rgb(15, 15, 15);
-    background-color: rgb(198, 216, 200);
-}
-#aiaclientinfo {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#aiaclientinfo td, #aiaclientinfo th {
-    border: 1px solid rgb(15, 15, 15);
-    padding: 8px;
-}
-
-#aiaclientinfo tr:nth-child(even){
-    background-color: rgb(228, 206, 206);
-}
-
-#aiainfo {
-    border: 2px solid rgb(15, 15, 15);
-    background-color: rgb(198, 216, 200);
-}
-#aiainfo {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#aiainfo td, #aiaclientinfo th {
-    border: 1px solid rgb(15, 15, 15);
-    padding: 8px;
-}
-
-#aiainfo tr:nth-child(even){
-    background-color: rgb(228, 206, 206);
-}
-
 footer {
 	clear:both;
 }
@@ -116,8 +56,7 @@ footer {
 
     section {
 		width:65%;
-        float:left;
-        margin: 10px;
+		float:left;
 	}
 	
     aside {	

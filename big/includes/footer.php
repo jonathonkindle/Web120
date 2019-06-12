@@ -1,6 +1,6 @@
     <!-- START Footer -->
         <footer>
-            <p><small>&copy; 2018 - <?=date('Y')?> by <a href="#" target="_blank">Jonathon Kindle</a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+            <p><small>&copy; 2018 - <?=date('Y')?> by <a class="a-footer" href="#" target="_blank">Jonathon Kindle</a>, All Rights Reserved ~ <a class="a-footer" href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a class="a-footer" href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
         </footer>
         <!-- END Footer --> 
 
@@ -13,6 +13,12 @@
                     x.className += " responsive";
                 } else {
                     x.className = "topnav";
+                }
+                var y = document.getElementById("mydropbtn");
+                if (y.className === "dropbtn") {
+                    y.className += " responsive";
+                } else {
+                    y.className = "dropbtn";
                 }
             }
 

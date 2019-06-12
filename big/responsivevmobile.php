@@ -22,9 +22,9 @@
 <aside>
     <h3>Citations:</h3>
     <ul>
-        <li><a href="https://www.smashstack.com/articles/the-pros-and-cons-of-mobile-apps-vs-responsive-web-design/" target="_blank">The Pros and Cons of Mobile Apps vs. Responsive Web Design</a></li>
-        <li><a href="https://www.rapidvaluesolutions.com/whitepapers/responsive-web-design-vs-mobile-web-app-whats-best-for-your-enterprise/" target="_blank">Responsive Web Design vs. Mobile Web App – What’s Best for your Enterprise?</a></li>
-        <li><a href="https://www.hswsolutions.com/services/mobile-web-development/mobile-website-vs-apps/" target="_blank">Mobile Website vs. Mobile App: Which is Best for Your Organization?</a></li>
+        <li><a class="a-citations" href="https://www.smashstack.com/articles/the-pros-and-cons-of-mobile-apps-vs-responsive-web-design/" target="_blank">The Pros and Cons of Mobile Apps vs. Responsive Web Design</a></li>
+        <li><a class="a-citations" href="https://www.rapidvaluesolutions.com/whitepapers/responsive-web-design-vs-mobile-web-app-whats-best-for-your-enterprise/" target="_blank">Responsive Web Design vs. Mobile Web App – What’s Best for your Enterprise?</a></li>
+        <li><a class="a-citations" href="https://www.hswsolutions.com/services/mobile-web-development/mobile-website-vs-apps/" target="_blank">Mobile Website vs. Mobile App: Which is Best for Your Organization?</a></li>
     </ul>
 </aside>
 <!-- END RIGHT COL -->

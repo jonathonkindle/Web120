@@ -49,8 +49,8 @@
 <aside>
     <h3>Citations:</h3>
     <ul>
-        <li><a href="https://www.bigcommerce.com/ecommerce-answers/whats-shopping-cart/" target="_blank">BigCommerce Essentials</a></li>
-        <li><a href="https://www.earthskater.com/introduction-to-online-shopping-cart-systems/" target="_blank">Earth Skater</a></li>
+        <li><a class="a-citations" href="https://www.bigcommerce.com/ecommerce-answers/whats-shopping-cart/" target="_blank">BigCommerce Essentials</a></li>
+        <li><a class="a-citations" href="https://www.earthskater.com/introduction-to-online-shopping-cart-systems/" target="_blank">Earth Skater</a></li>
     </ul>
 </aside>
 <!-- END RIGHT COL -->

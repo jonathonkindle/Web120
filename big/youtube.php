@@ -3,10 +3,7 @@
 <!-- START LEFT COL -->
 <section>
     <h2 class="pageID"><?=$pageID?></h2>
-    <!--reCAPTCHA form goes here-->
-   <?php include "includes/multiple.php";?>
-   <p class="clear-recaptcha"></p>
-
+    <p>Coming soon!</p>
 </section>
 <!-- END LEFT COL -->
 

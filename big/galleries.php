@@ -30,9 +30,9 @@
 <aside>
     <h3>Citations:</h3>
     <ul>
-        <li><a href="https://www.ionos.com/digitalguide/websites/web-design/how-to-create-a-photo-gallery-for-your-website/" target="_blank">Web design basics: creating a photo gallery for your website</a></li>
-        <li><a href="https://www.cincopa.com/media-platform/html-gallery" target="_blank">The Benefits of an Image Gallery HTML compatible</a></li>
-        <li><a href="https://developers.google.com/web/fundamentals/design-and-ux/responsive/images" target="_blank">Images: by Pete LePage</a></li>
+        <li><a class="a-citations" href="https://www.ionos.com/digitalguide/websites/web-design/how-to-create-a-photo-gallery-for-your-website/" target="_blank">Web design basics: creating a photo gallery for your website</a></li>
+        <li><a class="a-citations" href="https://www.cincopa.com/media-platform/html-gallery" target="_blank">The Benefits of an Image Gallery HTML compatible</a></li>
+        <li><a class="a-citations" href="https://developers.google.com/web/fundamentals/design-and-ux/responsive/images" target="_blank">Images: by Pete LePage</a></li>
     </ul>
 </aside>
 <!-- END RIGHT COL -->
