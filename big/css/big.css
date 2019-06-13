@@ -1,6 +1,9 @@
 /* portal website */
 
 /* My WEB120 Portal Website Styles */
+* {
+    box-sizing: border-box;
+}
 
 html {
     background-color:#ccc;
@@ -9,6 +12,25 @@ html {
 div.wrapper {
     background-color:#fff;
     overflow:auto;
+}
+
+div {
+    padding: 10px;
+}
+
+h1, h2, h3, h4 {
+    padding-left: 10px;
+    margin: 20px;
+}
+
+p {
+    padding-left: 8px;
+    font-size: 0.9em;
+    margin: 20px;
+}
+
+aside {
+    padding: 15px;
 }
 
 h1>a {
@@ -49,7 +71,7 @@ footer {
 /* DESKTOP */
 @media all and (min-width:1400px) {
 	
-   div.wrapper {
+    div.wrapper {
 		width:80%;
 		margin:auto;
 	}

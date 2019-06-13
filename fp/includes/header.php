@@ -10,9 +10,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <link rel="stylesheet" href="/WEB120/animsition-master/dist/css/animsition.min.css">
         <script src="/WEB120/animsition-master/dist/js/animsition.min.js"></script>
-        <link rel="stylesheet" href="../css/fpnav.css" />
-        <link rel="stylesheet" href="../css/fp.css" />
-        <link rel="stylesheet" href="../css/fpform.css" />
+        <link rel="stylesheet" href="/WEB120/fp/css/fpnav.css" />
+        <link rel="stylesheet" href="/WEB120/fp/css/fp.css" />
+        <link rel="stylesheet" href="/WEB120/fp/css/fpform.css" />
     </head>
 
     <body>

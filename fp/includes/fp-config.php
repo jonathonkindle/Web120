@@ -35,12 +35,11 @@ switch(THIS_PAGE){
         $pageID = "Coming Soon!";
 }
 
+$nav1['/WEB120/index.php'] = "WEB120 Portal";
 $nav1['/WEB120/fp/fpindex.php'] = "Welcome";
 $nav1['/WEB120/fp/products.php'] = "Products";
 $nav1['/WEB120/fp/services.php'] = "Services";
 $nav1['/WEB120/fp/contactme.php'] = "Contact SCC";
-$nav1['/WEB120/index.php'] = "WEB120 Portal";
-
 
 function makeLinks($nav1){
     $myReturn = '';

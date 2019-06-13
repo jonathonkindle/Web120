@@ -41,62 +41,6 @@ div.embed-container iframe {
     height: 100%;
 }
 
-.aiah3 {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#aiaclientinfo {
-    border: 2px solid rgb(15, 15, 15);
-    background-color: rgb(198, 216, 200);
-}
-#aiaclientinfo {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#aiaclientinfo td, #aiaclientinfo th {
-    border: 1px solid rgb(15, 15, 15);
-    padding: 8px;
-}
-
-#aiaclientinfo tr:nth-child(even){
-    background-color: rgb(228, 206, 206);
-}
-
-#aiainfo {
-    border: 2px solid rgb(15, 15, 15);
-    background-color: rgb(198, 216, 200);
-}
-#aiainfo {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#aiainfo td, #aiaclientinfo th {
-    border: 1px solid rgb(15, 15, 15);
-    padding: 8px;
-}
-
-#aiainfo tr:nth-child(even){
-    background-color: rgb(228, 206, 206);
-}
-
-/* #aiaclientinfo th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #4CAF50;
-    color: rgb(144, 185, 48);
-} */
-
 footer {
 	clear:both;
 }

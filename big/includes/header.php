@@ -19,7 +19,7 @@
     <!-- START WRAPPER -->
         <div class="wrapper animsition">
             <header>
-                <h1><a href="/WEB120/big/bigindex.php"><i class="logo <?=$logo?>"></i>BIG</a></h1>
+                <h1 align="center"><a href="/WEB120/big/bigindex.php"><i class="logo <?=$logo?>"></i>BIG</a></h1>
                 <nav role="navigation">
                     <ul class="topnav" id="myTopnav">
                         <?=makeLinks($nav1)?>
