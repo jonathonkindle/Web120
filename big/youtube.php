@@ -3,7 +3,7 @@
 <!-- START LEFT COL -->
 <section>
     <h2 class="pageID"><?=$pageID?></h2>
-    <p>Coming soon!</p>
+    <div class='embed-container'><iframe src='https://www.youtube.com/embed/z8xUCzToff8' frameborder='0' allowfullscreen></iframe></div>
 </section>
 <!-- END LEFT COL -->
 

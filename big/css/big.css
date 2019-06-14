@@ -1,10 +1,6 @@
 /* portal website */
 
 /* My WEB120 Portal Website Styles */
-* {
-    box-sizing: border-box;
-}
-
 html {
     background-color:#ccc;
 }
@@ -33,6 +29,11 @@ aside {
     padding: 15px;
 }
 
+a.tel {
+    text-decoration: none;
+    color:#000;
+}
+
 h1>a {
     text-decoration: none;
     color:#000;
@@ -51,7 +52,6 @@ div.embed-container {
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
-    margin: auto;
     max-width: 98%;
 } 
 
@@ -61,6 +61,24 @@ div.embed-container iframe {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+div.embed-container.agenda-view {
+    display: none;
+}
+
+div.dot iframe {
+    border:0;
+    overflow:-moz-hidden-unscrollable;
+}
+
+body.webcam {
+    margin: 0;
+    padding:0;
+}
+
+body.webcam img {
+    width:100%;
 }
 
 footer {
@@ -137,6 +155,14 @@ footer {
         background-color: #ccc;
         color:#000;
     }
+
+    div.embed-container.agenda-view {
+        display: block;
+    }
+
+    div.embed-container.month-view {
+        display: none;
+    }
 }
 
 
@@ -153,6 +179,14 @@ footer {
     
     img.tablet, img.desktop {
         display:none;
-    }  
+    }
+
+    div.embed-container.agenda-view {
+        display: block;
+    }
+
+    div.embed-container.month-view {
+        display: none;
+    }
 
 }
