@@ -49,8 +49,8 @@
 <aside>
     <h3>Citations:</h3>
     <ul>
-        <li><a class="a-citations" href="https://www.bigcommerce.com/ecommerce-answers/whats-shopping-cart/" target="_blank">BigCommerce Essentials</a></li>
-        <li><a class="a-citations" href="https://www.earthskater.com/introduction-to-online-shopping-cart-systems/" target="_blank">Earth Skater</a></li>
+        <li><a class="a-citations" href="https://www.bigcommerce.com/ecommerce-answers/whats-shopping-cart/" target="_blank">BigCommerce Essentials: What is A Shopping Cart?</a></li>
+        <li><a class="a-citations" href="https://www.earthskater.com/introduction-to-online-shopping-cart-systems/" target="_blank">Earth Skater: Introduction to Shopping Cart Systems., Oct. 4, 2014</a></li>
     </ul>
 </aside>
 <!-- END RIGHT COL -->

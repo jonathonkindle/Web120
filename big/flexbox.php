@@ -15,6 +15,8 @@
 
     <blockquote><img source="images/flexbox.svg" alt="flexbox diagram"></blockquote>
 
+    <p>Having read about, and seen what you can do with this new formatting tool, I would highly recommend that any website you plan to build, be done with this. It offers a level of control over your layout that can set your site apart in a lot of ways. There is a pretty steep learning curve and new elements to get used to, but once that is done, the sky 's the limit.</p>
+
     <p>For a nice intro tutorial on how to use Flexbox, please visit <a href="https://flexboxfroggy.com/" target="_blank" text="Flexbox Froggy">Flexbox Froggy</a></p>
 </section>
 <!-- END LEFT COL -->
@@ -23,8 +25,8 @@
 <aside>
     <h3>Citations:</h3>
     <ul>
-        <li><a class="a-citations" href="https://internetingishard.com/html-and-css/flexbox/" target="_blank">Interneting is Hard</a></li>
-        <li><a class="a-citations" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Tricks</a></li>
+        <li><a class="a-citations" href="https://internetingishard.com/html-and-css/flexbox/" target="_blank">Interneting is Hard: Flexbox; No. 8 of HTML and CSS is hard.</a></li>
+        <li><a class="a-citations" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Tricks: A complete guide to Flexbox; April 8, 2013</a></li>
         <li><a class="a-citations" href="https://medium.com/@js_tut/the-complete-css-flex-box-tutorial-d17971950bdc" target="_blank">Medium</a></li>
     </ul>
 </aside>

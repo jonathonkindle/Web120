@@ -88,7 +88,6 @@ if ($response != null && $response->success)
 			<input type="checkbox" name="Interested_In[]" value="New Website" tabindex="40" /> New Website <br />
 			<input type="checkbox" name="Interested_In[]" value="Website Redesign" /> Website Redesign <br />
 			<input type="checkbox" name="Interested_In[]" value="Special Application" /> Special Application <br />
-			<input type="checkbox" name="Interested_In[]" value="Lollipops" /> Complimentary Lollipops <br />
 			<input type="checkbox" name="Interested_In[]" value="Other" /> Other <br />
 		</fieldset>
 	</div>
